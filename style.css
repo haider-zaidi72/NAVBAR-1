@@ -11,9 +11,12 @@ header{
     justify-content: space-between;
     border: 1px solid;
     padding: 0 50px 0 50px;
+    background-color: blueviolet;
+    height: 83px;
 }
 .logo{
-    align-items: center;
+    display: flex;
+    
 }
 .container ul{
     display: flex;
@@ -22,6 +25,8 @@ header{
 .container li{
     list-style: none;
     padding: 10px;
+    
+   
 }
 .media li{
     list-style: none;
@@ -38,3 +43,98 @@ header{
     display: flex;
     font-size: 30px;
 }
+
+@media screen and (max-width: 900px) and (min-width:672px){
+    .header{
+        font-size: 12px;
+        height: 45px;
+        background-color: rgb(122, 184, 60);
+       
+    }
+    .logo{
+        width: 150px;
+        display: flex;
+    }
+    .contact-btn{
+        padding: 3px;
+    }
+    .media li{
+        font-size:20px ;
+    }
+    .contact-btn{
+        width: 80px;
+    }
+    
+}
+@media screen and (max-width: 671px) and (min-width: 582px){
+    .header{
+        padding: 0px 25px 0px 25px;
+        height: 45px;
+        background-color: brown;
+       
+    }
+    .logo{
+        width:150px;
+        display: flex;
+    }
+    .media li{
+        font-size: 18px;
+    }
+    .container li{
+        font-size: 12px;
+        padding:5px;
+    }
+    .contact-btn{
+        font-size: 10px;
+        width: 70px;
+        padding:3px;
+    }
+}
+@media screen and (max-width: 581px) and (min-width: 480px){
+    .header{
+        padding: 0px 15px 0px 15px;
+        height: 29px;
+        background-color: blue;
+    }
+    .logo{
+        width: 100px;
+        display: flex;
+    }
+    .container li{
+        font-size: 10px;
+        padding: 5px;
+    }
+    .contact-btn{
+        font-size: 10px;
+        width: 70px;
+        padding: 2px;
+    }
+    .media li{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 479px) and (min-width: 353px){
+    .header{
+        padding: 0px 10px 0px 10px;
+        height: 23px;
+        background-color: darkgoldenrod;
+    }
+    .container li{
+        font-size: 8px;
+        padding: 3px;
+    }
+    .contact-btn{
+        font-size: 8px;
+        width: 50px;
+        padding: 2px;
+    }
+    .media li{
+        font-size: 12px;
+    }
+    .logo{
+        width: 80px;
+        display: flex;
+    }
+}
+
+
